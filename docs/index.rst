@@ -16,7 +16,7 @@ Quad Maker
 What is Quad Maker?
 ---------------------------------
 
-Quad Maker is a set of edit mode tools for 3D modelers that enables quick and efficient retopologizing of existing objects into quads. These tools are designed to work with each other to provide a faster retopology workflow than Blender's default, while seamlessly integrating with Blender's existing toolset.
+Quad Maker is a set of Blender edit mode tools for 3D modelers that enables quick and efficient retopologizing of existing objects into quads. These tools are designed to work with each other to provide a faster retopology workflow than Blender's default, while seamlessly integrating with Blender's existing toolset.
 
 The Tools
 ---------------------------------
