@@ -6,6 +6,11 @@
 Welcome to Quad Maker's documentation!
 ======================================
 
+.. image:: _static/images/logo-1_alpha.jpg
+   :alt: Quad Maker
+
+Under Construction during the testing phase.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
