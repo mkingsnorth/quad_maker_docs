@@ -25,7 +25,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Place Points** ``[Left Click]``
+**Place Points** 
+
+``[Left Click]``
 
   .. image:: _static/images/place_points.gif
      :alt: Place Points
@@ -34,7 +36,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Fill Quads** ``[Hold F + Left Click + Drag]``
+**Fill Quads** 
+
+``[Hold F + Left Click + Drag]``
 
   .. image:: _static/images/fill_quads.gif
      :alt: Fill Quads
@@ -43,7 +47,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Extrude Edges and Create Faces** ``[Hold E and Left Click + Drag]``
+**Extrude Edges and Create Faces** 
+
+``[Hold E and Left Click + Drag]``
 
   .. image:: _static/images/extrude_edges.gif
      :alt: Extrude Edges
@@ -82,6 +88,9 @@ Read the Quick Start guide to set up the tool.
     .. image:: _static/images/extrude_edges_ring.gif
         :alt: Extrude Edge Ring
 
+    .. image:: _static/images/extrude_edge_ring_arm.gif
+        :alt: Extrude Edge Ring
+
 ----------------------------------------------------------------------
 
   * **Create Faces** - Click near a vertex to create a face.
@@ -91,7 +100,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Quickly Loop Cut and Slide** ``[Hold R + Left Click]``
+**Quickly Loop Cut and Slide** 
+
+``[Hold R + Left Click]``
 
   .. image:: _static/images/loop_cut_slide.gif
       :alt: Loop Cut and Slide
@@ -100,7 +111,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Draw Quad Strips** ``[Hold D and Left Click + Drag]``
+**Draw Quad Strips** 
+
+``[Hold D and Left Click + Drag]``
 
   .. image:: _static/images/draw_quad_strip.gif
       :alt: Draw Quad Strips
@@ -109,7 +122,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Delete Faces, Edge Loops, and lone Vertices** ``[Hold X and Left Click + Drag]``
+**Delete Faces, Edge Loops, and lone Vertices** 
+
+``[Hold X and Left Click + Drag]``
 
   Quickly click and drag over a mesh to delete elements by holding X:
 
@@ -130,7 +145,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Smooth Vertices** ``[Hold S and Left Click + Drag]``
+**Smooth Vertices** 
+
+``[Hold S and Left Click + Drag]``
 
   .. image:: _static/images/smooth_verts.gif
       :alt: Smooth Elements
@@ -139,7 +156,9 @@ Read the Quick Start guide to set up the tool.
 
 ----------------------------------------------------------------------
 
-**Tweak Elements** ``[Left Click + Drag]``
+**Tweak Elements** 
+
+``[Left Click + Drag]``
 
   .. image:: _static/images/tweak.gif
       :alt: Tweak Elements
