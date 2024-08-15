@@ -44,7 +44,7 @@ The Tools
 
 ``[Hold F + Left Click + Drag]``
 
-  .. image:: _static/images/fill_quads.gifx
+  .. image:: _static/images/fill_quads.gif
      :alt: Fill Quads
 
   .. image:: _static/images/fill_quads2.gif
