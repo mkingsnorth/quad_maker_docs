@@ -18,10 +18,14 @@ What is Quad Maker?
 
 Quad Maker is a set of Blender edit mode tools for 3D modelers that enables quick and efficient retopologizing of existing objects into quads. These tools are designed to work with each other to provide a faster retopology workflow than Blender's default, while seamlessly integrating with Blender's existing toolset.
 
+Inspired by tools such as Maya's Quad Draw, Quad Maker aims to provide a similar experience for Blender users.
+
 The Tools
 ---------------------------------
 
-Read the Quick Start guide to set up the tool.
+.. note::
+    
+    Read the Quick Start guide to set up the tool first.
 
 ----------------------------------------------------------------------
 
@@ -43,7 +47,17 @@ Read the Quick Start guide to set up the tool.
   .. image:: _static/images/fill_quads.gif
      :alt: Fill Quads
 
+  .. image:: _static/images/fill_quads2.gif
+     :alt: Fill Quads
+
   A tool that fills in quads between points, edges, and holes in the geometry.
+
+  .. tip::
+
+        Also fills trianglular holes.
+
+        .. image:: _static/images/fill_tris.gif
+            :alt: Fill Quads
 
 ----------------------------------------------------------------------
 
@@ -128,15 +142,21 @@ Read the Quick Start guide to set up the tool.
 
   Quickly click and drag over a mesh to delete elements by holding X:
 
+----------------------------------------------------------------------
+
   * **Delete Faces** - Click and drag over faces to delete them.
 
     .. image:: _static/images/delete_faces.gif
         :alt: Delete Faces
 
+----------------------------------------------------------------------
+
   * **Dissolve/Delete Edge Loops** - Click and drag over edge loops to dissolve them. Boundary edge loops will be deleted.
 
     .. image:: _static/images/delete_edge_loops.gif
         :alt: Dissolve Edge Loops
+
+----------------------------------------------------------------------
 
   * **Delete Lone Vertices** - Click and drag over vertices that have no edges to delete them.
 
