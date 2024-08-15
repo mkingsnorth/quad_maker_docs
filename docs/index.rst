@@ -71,7 +71,7 @@ Read the Quick Start guide to set up the tool.
 
   * **Single Mode** - Extrude a single edge.
 
-    .. image:: _static/images/extrude_edges_Single.gif
+    .. image:: _static/images/extrude_edges_single.gif
         :alt: Extrude Single Edge
 
 ----------------------------------------------------------------------
