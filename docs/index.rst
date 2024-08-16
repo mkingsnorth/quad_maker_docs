@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. warning:: 
-   Under Construction during the testing phase.
-
 Quad Maker
 ======================================
+
+.. warning:: 
+   Documentation is under construction during the testing phase.
 
 .. image:: _static/images/logo-1_alpha.jpg
    :alt: Quad Maker
@@ -15,6 +15,7 @@ Quad Maker
 ---------------------------------
 What is Quad Maker?
 ---------------------------------
+
 
   .. image:: _static/images/fill_quads.gif
      :alt: Fill Quads
