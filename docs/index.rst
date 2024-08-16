@@ -30,7 +30,7 @@ Inspired by tools such as Maya's Quad Draw, Quad Maker aims to provide a similar
    :header-rows: 0
    :align: center
 
-   * - .. image:: _static/images/extrude_edges.gif
+   * - .. image:: _static/images/draw_quad_strip.gif
          :width: 100%
          :alt: Image 1
 
