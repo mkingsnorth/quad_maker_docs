@@ -46,6 +46,8 @@ Inspired by tools such as Maya's Quad Draw, Quad Maker aims to provide a similar
          :width: 100%
          :alt: Image 4
 
+See the :ref:`Tools<Tools>` section for a breakdown of the toolset available.
+
 -----------------
 Features:
 -----------------
@@ -56,9 +58,6 @@ Features:
 * Quickly draw out strips of quads on a target surface.
 * Automatically set and customize Blender retopology settings
 * Analyse your mesh for tris, quads, ngons and edge poles.
-
-
-See the :ref:`Tools<Tools>` section for a breakdown of the toolset available.
 
 
 .. toctree::

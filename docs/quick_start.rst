@@ -48,6 +48,4 @@ Once you have :ref:`installed<installation>` the add-on, take the following step
 
 #. You can then start retopologizing your object using the :ref:`Quad Maker toolset<tools>`.
 
-    .. tip::
-
-        You can exit and re-enter the tools simply by selecting another tool from the side menu, or by exiting Edit Mode.
+#. You can exit and re-enter the tools simply by selecting another tool from the side menu, or exiting Edit Mode by pressing the *tab* key.
