@@ -4,17 +4,29 @@
 The Tools
 #####################################
 
+
+.. image:: _static/images/keyboard_shortcuts.jpg
+   :alt: Keyboard Shortcuts
+   :align: center
+
+.. image:: _static/images/mouse_shortcuts.jpg
+   :alt: Workspace
+   :width: 50%
+   :align: center
+
 ----------------------------------------------------------------------
 
+.. _place_points:
+
 ---------------------------------
-Place Points
+Create Vertices
 ---------------------------------
 
 
 ``[Left Click]``
 
   .. image:: _static/images/place_points.gif
-     :alt: Place Points
+     :alt: Create Vertices
 
   Plan ahead by placing vertices onto a target surface ready to fill with quads.
 
@@ -56,7 +68,9 @@ Extrude Edges and Create Faces
 
 ----------------------------------------------------------------------
 
-  **Extrude Edge Modes**
+.. _extrude_modes:
+
+  **Extrude Modes**
 
   .. tip::
 
