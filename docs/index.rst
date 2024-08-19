@@ -56,7 +56,7 @@ Features:
 * Extrude edges in single, loop or ring modes and create faces by clicking on a single vertex.
 * Quickly use the loop cut and slide operation which avoids multiple clicks.
 * Quickly draw out strips of quads on a target surface.
-* Automatically set and customize Blender retopology settings
+* Set and customize Blender retopology settings automatically.
 * Analyse your mesh for tris, quads, ngons and edge poles.
 
 
