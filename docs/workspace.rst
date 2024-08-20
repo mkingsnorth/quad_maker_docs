@@ -107,5 +107,5 @@ Keyboard Shortcuts
 .. image:: _static/images/keyboard_shortcut_menu.jpg
    :alt: Keyboard Shortcuts
 
-The bottom part if the view displays all main keyboard shortcuts for the :ref:`Quad Maker tool set<toolset>`.  These will change depending on the type of sub tool you are using.
+The bottom part if the view displays all main keyboard shortcuts for the :ref:`Quad Maker tool set<tools>`.  These will change depending on the type of sub tool you are using.
 
