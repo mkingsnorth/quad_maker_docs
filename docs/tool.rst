@@ -28,21 +28,21 @@ When using the tool, each :ref:`operation<operations>` has a keyboard shortcut w
    * - Key
      - :ref:`Operation<operations>`
    * - ``Hold V``
-     - Add Vertices
+     - :ref:`add_vertices`
    * - ``Hold F``
-     - Fill Quads
+     - :ref:`fill_quads`
    * - ``Hold E``
-     - Extend Borders
+     - :ref:`extend_borders`
    * - ``Hold R``
-     - Quick Cut
+     - :ref:`quick_cut`
    * - ``Hold D``
-     - Draw Quad Strip
+     - :ref:`draw_quad_strip`
    * - ``Hold S``
-     - Smooth Vertices
+     - :ref:`smooth_verts`
    * - ``Hold X``
-     - Delete Mode
+     - :ref:`delete_mode`
    * - ``Press Q``
-     - Open :ref:`Pie Menu<pie_menu>` with Settings
+     - :ref:`Open Pie Menu<pie_menu>`
 
 
 
