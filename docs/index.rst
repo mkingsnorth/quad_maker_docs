@@ -58,25 +58,35 @@ The operations are:
 With a focus on speed and simplicity, Quad Maker brings together these essential retopology operations into a unified, hotkey-driven workspace tool, aiming for seamless integration with Blender’s native mesh editing tools:
 
 
-.. image:: _static/images/tool_menu_1.jpg
+.. figure:: _static/images/tool_menu_1.jpg
     :alt: Operations Menu
+
+    Mesh courtesy of |Ryan Paul|
 
 For maximum flexibility, each individual operation is also accessible through a simple right-click menu when in Blender's Edit Mode, giving users the choice to use the operations individually:
 
-.. image:: _static/images/tool_menu_2.jpg
-   :alt: Combined Tool
+.. figure:: _static/images/tool_menu_2.jpg
+    :alt: Combined Tool
+
+    Mesh courtesy of |Ryan Paul|
 
 A Pie Menu is also available for quick access to the Quad Maker operations and settings:
 
-.. image:: _static/images/tool_menu_3.jpg
-   :alt: Pie Menu
+.. figure:: _static/images/tool_menu_3.jpg
+    :alt: Pie Menu
+
+    Mesh courtesy of |Ryan Paul|
 
 Change Blender's retopology settings in one menu for easy access and customization:
 
-.. image:: _static/images/tool_menu_4.jpg
-   :alt: Pie Menu
+.. figure:: _static/images/tool_menu_4.jpg
+    :alt: Retopology Menu
 
+    Mesh courtesy of |Ryan Paul|
 
+.. |Ryan Paul| raw:: html
+
+   <a href="https://www.artstation.com/ryankentpaule" target="_blank"><i>Ryan Paul</i></a>
 
 Beware!
 ================
