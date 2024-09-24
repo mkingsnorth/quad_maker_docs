@@ -1,42 +1,45 @@
-.. _tools:
+.. _operations:
 
 #####################################
-The Tools
+Operations
 #####################################
 
-
-.. image:: _static/images/keyboard_shortcuts.jpg
-   :alt: Keyboard Shortcuts
-   :align: center
-
-.. image:: _static/images/mouse_shortcuts.jpg
-   :alt: Workspace
-   :width: 50%
-   :align: center
 
 ----------------------------------------------------------------------
 
-.. _place_points:
+.. _add_vertices:
 
 ---------------------------------
-Create Vertices
+Add Vertices
 ---------------------------------
 
 
-``[Left Click]``
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Hold V + Left Click]``
+
+Other shortcuts:
+
+* ``[Press F / Up & Down Arrows]``: Change vertex draw spacing
 
   .. image:: _static/images/place_points.gif
      :alt: Create Vertices
 
-  Plan ahead by placing vertices onto a target surface ready to fill with quads.
+  Plan ahead by placing vertices onto a target surface ready to fill with quads.  
+  
+  By clicking and dragging you can also draw multiple vertices at once.
 
 ----------------------------------------------------------------------
+
+.. _fill_quads:
 
 ---------------------------------
 Fill Quads
 ---------------------------------
 
-``[Hold F + Left Click + Drag]``
+:ref:`Tool Shortcut<tool>`:
+
+* ``[Hold F + Left Click + Drag]``
 
   .. image:: _static/images/fill_quads.gif
      :alt: Fill Quads
@@ -44,7 +47,7 @@ Fill Quads
   .. image:: _static/images/fill_quads2.gif
      :alt: Fill Quads
 
-  A tool that fills in quads between points, edges, and holes in the geometry.
+  Fills in quads between points, edges, and holes in the geometry.
 
   .. tip::
 
@@ -55,26 +58,34 @@ Fill Quads
 
 ----------------------------------------------------------------------
 
+.. _extend_borders:
+
 ---------------------------------
-Extrude Edges and Create Faces
+Extend Borders
 ---------------------------------
 
-``[Hold E and Left Click + Drag]``
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Hold E and Left Click + Drag]``
+
+Other Shortcuts:
+
+* ``[Spacebar]``: Change Extend Mode (Single, Loop, Ring)
 
   .. image:: _static/images/extrude_edges.gif
-     :alt: Extrude Edges
+     :alt: Extend Borders
 
-  Extrude or create new faces between edges points.
+  Extrude border edges or create new faces from border points.
 
 ----------------------------------------------------------------------
 
 .. _extrude_modes:
 
-  **Extrude Modes**
+  **Extend Modes**
 
   .. tip::
 
-    Change modes in the Tool Settings to select different types of edge selections:
+    Change modes by pressing the spacebar or in the Tool Settings to select different types of edge selections:
 
         .. image:: _static/images/extrude_opts_menu.jpg
             :alt: Extrude Edge Options
@@ -112,11 +123,15 @@ Extrude Edges and Create Faces
 
 ----------------------------------------------------------------------
 
+.. _quick_cut:
+
 ---------------------------------
 Quick Loop Cut and Slide
 ---------------------------------
 
-``[Hold R + Left Click]``
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Hold R + Left Click]``
 
   .. image:: _static/images/loop_cut_slide.gif
       :alt: Loop Cut and Slide
@@ -125,11 +140,19 @@ Quick Loop Cut and Slide
 
 ----------------------------------------------------------------------
 
+.. _draw_quad_strip:
+
 ---------------------------------
 Draw Quad Strips
 ---------------------------------
 
-``[Hold D and Left Click + Drag]``
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Hold D and Left Click + Drag]``
+
+Other Shortcuts:
+
+* ``[Press F / Up & Down Arrows]``: Change strip size
 
   .. image:: _static/images/draw_quad_strip.gif
       :alt: Draw Quad Strips
@@ -138,11 +161,50 @@ Draw Quad Strips
 
 ----------------------------------------------------------------------
 
+.. _smooth_verts:
+
 ---------------------------------
-Delete
+Smooth Vertices
 ---------------------------------
 
-``[Hold X and Left Click + Drag]``
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Hold S and Left Click + Drag]``
+
+Other Shortcuts:
+
+* ``[Press F / Up & Down Arrows]``: Change brush size
+
+* ``[Shift + Press F / Press G / Left & Right Arrows]``: Change brush strength
+
+* ``[Spacebar]``: Change vertex relax mode (All, Border, Interior, Automatic)
+
+  .. image:: _static/images/smooth_verts.gif
+      :alt: Smooth Elements
+
+  Smooth vertices whilst maintaining their projection onto the target surface.
+
+
+.. _smooth_modes:
+
+    **Smooth Modes**
+
+    * **All Vertices**: Smooth all vertices.
+    * **Border Edges**: Smooth only border edge vertices.
+    * **Interior Vertices**: Smooth only interior vertices.
+    * **Automatic**: Automatically smooth vertices based on the initial selection.  If the initial selection is an interior vertex, only interior vertices will be relaxed. If the initial selection is a border vertex, only border vertices will be relaxed.
+
+----------------------------------------------------------------------
+
+.. _delete_mode:
+
+---------------------------------
+Delete Mode
+---------------------------------
+
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Hold X and Left Click + Drag]``
 
   Delete Faces, Edge Loops, and lone Vertices. Quickly click and drag over a mesh to delete elements by holding X:
 
@@ -170,27 +232,44 @@ Delete
 ----------------------------------------------------------------------
 
 ---------------------------------
-Smooth Vertices
----------------------------------
-
-``[Hold S and Left Click + Drag]``
-
-  .. image:: _static/images/smooth_verts.gif
-      :alt: Smooth Elements
-
-  Relax vertices whilst maintaining their projection onto the target surface.
-
-----------------------------------------------------------------------
-
----------------------------------
 Tweak Elements
 ---------------------------------
 
-``[Left Click + Drag]``
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Left Click + Drag]``
 
   .. image:: _static/images/tweak.gif
       :alt: Tweak Elements
 
   Move vertices, edges, and faces along the mesh.  ``Hold Alt + Left Click + Drag`` to select and move edge loops.
+
+----------------------------------------------------------------------
+
+
+.. _pie_menu:
+
+-----------------
+Pie Menu
+-----------------
+
+:ref:`Tool Shortcut<tool>`: 
+
+* ``[Press Q]``
+
+A Pie Menu is available either via the right-click Quad Maker edit mode menu or by pressing the *Q key* when using the main tool.  This menu gives you quick access to the Quad Maker operations and settings:
+
+.. image:: _static/images/pie_menu.jpg
+   :alt: Pie Menu
+
+.. important::
+
+    Remember when you have finished with each operation, *right-click* again or press the *escape key* to exit.
+
+.. tip::
+    
+        You can bind the pie menu to a short cut by right-clicking the Pie Menu option in the Quad Maker right-click menu and selecting *Assign Shortcut* or clicking on *Add to Quick Favorites* to quickly access it as a Favorite by pressing *Q*.  Please note that not all hotkeys work depending on what you are doing in Blender.
+
+
 
 ----------------------------------------------------------------------

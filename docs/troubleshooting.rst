@@ -6,9 +6,14 @@ Tips and Troubleshooting
 Frequency Asked Questions
 =========================
 
+.. note::
+    
+    If you are having any issues do not hesitate to :ref:`Contact Us <contact>`
+
+
 ----------------------------------------------------------------------------------
-The *New Object with Quad Maker* option is greyed out.  Why?
------------------------------------------
+The :ref:`New Object with Quad Maker<new_blank_mesh>` option is greyed out.  Why?
+----------------------------------------------------------------------------------
 
 Make sure you have an object selected in Object Mode before trying to use this option.  If you have an object selected in Edit Mode, the option will be greyed out.
 
@@ -16,7 +21,10 @@ Make sure you have an object selected in Object Mode before trying to use this o
 Can I change the keyboard shortcuts?
 -----------------------------------------
 
-Unfortunately at the moment the keyboard shortcuts have to be hard coded into the add-on for Blender.  This is something we are looking to change in the future.
+Go to Edit - Preferences in Blender and select the *Keymap* tab.  Search for *Quad Maker* and you will see all the shortcuts you can change.
+
+.. image:: _static/images/keymaps.jpg
+   :alt: Keymap
 
 
 ============================================================================================================
@@ -33,5 +41,3 @@ Here are some free and paid resources for learning more about retopology. There 
 
 * Blender Studio's Retopology Course - https://studio.blender.org/training/stylized-character-workflow/chapter/5d384edea5b8f5c2c32c8507/
 
-
-If you are having any issues do not hesitate to :ref:`Contact Us <contact>`

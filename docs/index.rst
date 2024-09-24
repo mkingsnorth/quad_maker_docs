@@ -17,13 +17,12 @@ What is Quad Maker?
 ---------------------------------
 
 
-  .. image:: _static/images/fill_quads.gif
-     :alt: Fill Quads
+.. image:: _static/images/fill_quads.gif
+    :alt: Fill Quads
 
-Quad Maker is a set of Blender edit mode tools for 3D modelers that enables quick and efficient retopologizing of existing objects into quads. These tools are designed to work with each other to provide a faster retopology workflow than Blender's default, while integrating with Blender's existing toolset.
+Quad Maker is a set of very simple Blender mesh operations designed to help 3D modelers quickly retopologize objects into clean, quad-based geometry. 
 
-Inspired by tools such as Maya's Quad Draw, Quad Maker aims to provide a similar experience for Blender users.
-
+Inspired by Maya's Quad Draw, Quad Maker offers Blender users a way to speed up their retopology workflow while maintaining flexibility within Blender's existing toolset.
 
 .. list-table::
    :widths: 50 50
@@ -46,18 +45,48 @@ Inspired by tools such as Maya's Quad Draw, Quad Maker aims to provide a similar
          :width: 100%
          :alt: Image 4
 
-See the :ref:`Tools<Tools>` section for a breakdown of the toolset available.
+The operations are:
 
------------------
-Features:
------------------
+* :ref:`Add Vertices<add_vertices>`: Quickly add point vertices.
+* :ref:`Fill Quads<fill_quads>`: Fill the point vertices and surrounding geometry with quads.
+* :ref:`Extend Borders<extend_borders>`: Extrude border edges and vertices either in single, loop or edge rings.
+* :ref:`Quick Cut<quick_cut>`: Quickly use the simple loop cut and slide operation with single clicks.
+* :ref:`Draw Quad Strip<draw_quad_strip>`: Quickly draw out strips of quads on a target surface.
+* :ref:`Smooth Vertices<smooth_verts>`: Smooth out vertices in edit mode.
+* :ref:`Delete Mode<delete_mode>`: Quickly delete vertices, edges and faces and dissolve interior edges in a single click/drag operation.
 
-* Add point vertices and fill them with quads.
-* Extrude edges in single, loop or ring modes and create faces by clicking on a single vertex.
-* Quickly use the loop cut and slide operation which avoids multiple clicks.
-* Quickly draw out strips of quads on a target surface.
-* Set and customize Blender retopology settings automatically.
-* Analyse your mesh for tris, quads, ngons and edge poles.
+With a focus on speed and simplicity, Quad Maker brings together these essential retopology operations into a unified, hotkey-driven workspace tool, aiming for seamless integration with Blender’s native mesh editing tools:
+
+
+.. image:: _static/images/tool_menu_1.jpg
+    :alt: Operations Menu
+
+For maximum flexibility, each individual operation is also accessible through a simple right-click menu when in Blender's Edit Mode, giving users the choice to use the operations individually:
+
+.. image:: _static/images/tool_menu_2.jpg
+   :alt: Combined Tool
+
+A Pie Menu is also available for quick access to the Quad Maker operations and settings:
+
+.. image:: _static/images/tool_menu_3.jpg
+   :alt: Pie Menu
+
+Change Blender's retopology settings in one menu for easy access and customization:
+
+.. image:: _static/images/tool_menu_4.jpg
+   :alt: Pie Menu
+
+
+
+Beware!
+================
+
+* The add-on is designed for simplicity and speed, so it may not be as feature-rich as other retopology tools.
+* Check out the freely available `Poly Quilt <https://extensions.blender.org/add-ons/polyquilt-fork/>`_ and the excellent `Retopoflow <https://blendermarket.com/products/retopoflow>`_ add-on before deciding whether this add-on is for you.
+* Please report any slow downs, bugs or issues by emailing `info@configurate.net <mailto:info@configurate.net>`_.
+* Quad Maker should work well when retopologizing meshes with high poly counts but may not be suitable when editing high poly meshes themselves.
+
+
 
 
 .. toctree::
@@ -66,8 +95,9 @@ Features:
    
    installation
    quick_start
-   workspace
-   Tools <tools>
+   tool
+   Operations <operations>
+   preferences
    troubleshooting
    contact
 
