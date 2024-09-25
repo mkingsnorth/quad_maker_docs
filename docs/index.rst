@@ -105,8 +105,8 @@ Beware!
    
    installation
    quick_start
-   tool
    Operations <operations>
+   tool
    preferences
    troubleshooting
    contact
