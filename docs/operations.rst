@@ -18,9 +18,12 @@ Add Vertices
 
 * ``[Hold V + Left Click]``
 
-Other shortcuts:
+While Operation is Active:
 
-* ``[Press F / Up & Down Arrows]``: Change vertex draw spacing
+* ``[Tap F / Up & Down Arrows]``: Change vertex draw spacing
+
+  .. note::
+    When using the :ref:`Tool Shortcut<tool>`, keep holding V to keep the operation active.
 
   .. image:: _static/images/place_points.gif
      :alt: Create Vertices
@@ -68,9 +71,12 @@ Extend Borders
 
 * ``[Hold E and Left Click + Drag]``
 
-Other Shortcuts:
+While Operation is Active:
 
-* ``[Spacebar]``: Change Extend Mode (Single, Loop, Ring)
+* ``[Tap Spacebar]``: Change Extend Mode (Single, Loop, Ring)
+
+  .. note::
+    When using the :ref:`Tool Shortcut<tool>`, keep holding E to keep the operation active.
 
   .. image:: _static/images/extrude_edges.gif
      :alt: Extend Borders
@@ -150,9 +156,12 @@ Draw Quad Strips
 
 * ``[Hold D and Left Click + Drag]``
 
-Other Shortcuts:
+While Operation is Active:
 
-* ``[Press F / Up & Down Arrows]``: Change strip size
+* ``[Tap F / Up & Down Arrows]``: Change strip size
+
+  .. note::
+    When using the :ref:`Tool Shortcut<tool>`, keep holding D to keep the operation active.
 
   .. image:: _static/images/draw_quad_strip.gif
       :alt: Draw Quad Strips
@@ -171,13 +180,16 @@ Smooth Vertices
 
 * ``[Hold S and Left Click + Drag]``
 
-Other Shortcuts:
+While Operation is Active:
 
-* ``[Press F / Up & Down Arrows]``: Change brush size
+* ``[Tap F / Up & Down Arrows]``: Change brush size
 
-* ``[Shift + Press F / Press G / Left & Right Arrows]``: Change brush strength
+* ``[Shift + Tap F / Tap G / Left & Right Arrows]``: Change brush strength
 
-* ``[Spacebar]``: Change vertex relax mode (All, Border, Interior, Automatic)
+* ``[Tap Spacebar]``: Change vertex relax mode (All, Border, Interior, Automatic)
+
+  .. note::
+    When using the :ref:`Tool Shortcut<tool>`, keep holding S to keep the operation active.
 
   .. image:: _static/images/smooth_verts.gif
       :alt: Smooth Elements
