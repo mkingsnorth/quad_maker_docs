@@ -6,9 +6,6 @@
 Quad Maker
 ======================================
 
-.. warning:: 
-   Documentation is under construction during the testing phase.
-
 .. image:: _static/images/logo-1_alpha.jpg
    :alt: Quad Maker
 
