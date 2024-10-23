@@ -21,6 +21,10 @@ Make sure you have an object selected in Object Mode before trying to use this o
 Can I change the keyboard shortcuts?
 -----------------------------------------
 
+.. warning::
+        
+        Changing the keyboard shortcuts is not recommended as it may cause conflicts with Blender or other add-ons.  Custom keyboard shortcuts may not always work for this reason.
+
 Go to Edit - Preferences in Blender and select the *Keymap* tab.  Search for *Quad Maker* and you will see all the shortcuts you can change.
 
 .. image:: _static/images/keymaps.jpg
