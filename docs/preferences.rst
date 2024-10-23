@@ -17,6 +17,11 @@ Object Suffix
 
 The suffix to add to the end of the new object name when :ref:`creating a new object<new_blank_mesh>` through Quad Maker.
 
+Toggle Retopology Settings when Entering or Exiting the Tool
+------------------------------------------------------------
+
+When enabled, the retopology settings will be toggled on or off when entering or exiting the Quad Maker tool.
+
 Snap Element Proximity (Pixels)
 ------------------------------------------------------------
 

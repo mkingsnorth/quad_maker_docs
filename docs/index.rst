@@ -17,7 +17,7 @@ What is Quad Maker?
 .. image:: _static/images/fill_quads.gif
     :alt: Fill Quads
 
-Quad Maker is a set of very simple Blender mesh operations designed to help 3D modelers quickly retopologize objects into clean, quad-based geometry. 
+`Quad Maker <https://blendermarket.com/products/quad-maker/>`_ is a set of very simple Blender mesh operations designed to help 3D modelers quickly retopologize objects into clean, quad-based geometry. 
 
 Inspired by Maya's Quad Draw, Quad Maker offers Blender users a way to speed up their retopology workflow while maintaining flexibility within Blender's existing toolset.
 
