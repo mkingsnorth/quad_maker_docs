@@ -37,6 +37,12 @@ Go to Edit - Preferences in Blender and select the *Keymap* tab.  Search for *Qu
    :alt: Keymap
 
 
+---------------------------------------------------------------------------------------------------------------------------
+When I use operations like Alt-Select for an Edge Loop, the view is rotated instead.  Why is this?
+---------------------------------------------------------------------------------------------------------------------------
+
+This may be because you have "Emulate 3 Button Mouse" enabled under Edit - Preferences - Input.  This can cause conflicts with the Quad Maker tool.  Try disabling this option in Preferences.
+
 ============================================================================================================
 Retopology Resources
 ============================================================================================================
