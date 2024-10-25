@@ -23,7 +23,13 @@ Can I change the keyboard shortcuts?
 
 .. warning::
         
-        Changing the keyboard shortcuts is not recommended as it may cause conflicts with Blender or other add-ons.  Custom keyboard shortcuts may not always work for this reason.
+    Some keys like Shift and Tab are often used in Blender for multi-selection and other core functions, which can limit its useability for custom hotkey assignments. 
+
+    Unfortunately, Blender can override keyboard shortcut preferences if the changes override core behaviour.  
+
+    Therefore, assigning other industry standard shortcuts may not be possible.
+
+    Changing the keyboard shortcuts is therefore not recommended as it may cause conflicts with Blender or other add-ons.
 
 Go to Edit - Preferences in Blender and select the *Keymap* tab.  Search for *Quad Maker* and you will see all the shortcuts you can change.
 
