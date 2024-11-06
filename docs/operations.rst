@@ -254,7 +254,11 @@ Tweak Elements
   .. image:: _static/images/tweak.gif
       :alt: Tweak Elements
 
-  Move vertices, edges, and faces along the mesh.  ``Hold Alt + Left Click + Drag`` to select and move edge loops.
+  Move vertices, edges, and faces along the mesh.  ``Hold Alt + Left Click + Drag`` \* to select and move edge loops.
+
+  .. note::
+
+    \* When *Emulate 3 Button Mouse* is selected in preferences,  ``Hold Shift + Left Click + Drag`` to select and move edge loops instead.
 
 ----------------------------------------------------------------------
 
