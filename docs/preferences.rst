@@ -47,6 +47,16 @@ Smooth Strength Steps (Amount)
 
 When increasing or decreasing the strength of the Smooth brush, how much to increase or decrease the strength by.
 
+======================================================
+Keyboard Shortcuts
+======================================================
+
+This allows you to change the keyboard shortcuts for each :ref:`operation<operations>` in Quad Maker.
+
+
+.. note::
+    If **Emulate 3 Button Mouse** is checked under Blender's *Edit - Preferences - Input* tab and the *Alt* key is used as the middle mouse button, the *shift* key is always used to perform loop selections
+
 
 ======================================================
 Color Settings

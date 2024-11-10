@@ -258,7 +258,7 @@ Tweak Elements
 
   .. note::
 
-    \* When *Emulate 3 Button Mouse* is selected in preferences,  ``Hold Shift + Left Click + Drag`` to select and move edge loops instead.
+    \* When *Emulate 3 Button Mouse* is selected in preferences and the Alt key is used for the middle mouse,  ``Hold Shift + Left Click + Drag`` to select and move edge loops instead.
 
 ----------------------------------------------------------------------
 

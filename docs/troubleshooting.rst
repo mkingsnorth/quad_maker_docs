@@ -18,8 +18,14 @@ The :ref:`New Object with Quad Maker<new_blank_mesh>` option is greyed out.  Why
 Make sure you have an object selected in Object Mode before trying to use this option.  If you have an object selected in Edit Mode, the option will be greyed out.
 
 -----------------------------------------
-Can I change the keyboard shortcuts?
+Can I change the keyboard shortcuts for the tool?
 -----------------------------------------
+
+Go to Edit - Preferences - Add-ons and search for *Quad Maker* and expand the Quad Maker Section.  Here you can change the keyboard shortcuts for each operation.
+
+
+.. image:: _static/images/preferences_keyboard_shortcuts.png
+   :alt: Keymap
 
 .. warning::
         
@@ -30,18 +36,6 @@ Can I change the keyboard shortcuts?
     Therefore, assigning other industry standard shortcuts may not be possible.
 
     Changing the keyboard shortcuts is therefore not recommended as it may cause conflicts with Blender or other add-ons.
-
-Go to Edit - Preferences in Blender and select the *Keymap* tab.  Search for *Quad Maker* and you will see all the shortcuts you can change.
-
-.. image:: _static/images/keymaps.jpg
-   :alt: Keymap
-
-
----------------------------------------------------------------------------------------------------------------------------
-When I use operations like Alt-Select for an Edge Loop, the view is rotated instead.  Why is this?
----------------------------------------------------------------------------------------------------------------------------
-
-This may be because you have "Emulate 3 Button Mouse" enabled under Edit - Preferences - Input.  This can cause conflicts with the Quad Maker tool.  Try disabling this option in Preferences.
 
 ============================================================================================================
 Retopology Resources
