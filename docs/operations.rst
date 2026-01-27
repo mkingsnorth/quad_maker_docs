@@ -186,7 +186,7 @@ While Operation is Active:
 
 * ``[Shift + Tap F / Tap G / Left & Right Arrows]``: Change brush strength
 
-* ``[Tap Spacebar]``: Change vertex relax mode (All, Border, Interior, Automatic)
+* ``[Tap Spacebar]``: Change vertex relax mode (All, Selected,sssssss Border, Interior, Automatic)
 
   .. note::
     When using the :ref:`Tool Shortcut<tool>`, keep holding S to keep the operation active.
@@ -202,6 +202,7 @@ While Operation is Active:
     **Smooth Modes**
 
     * **All Vertices**: Smooth all vertices.
+    * **Selected Vertices**: Smooth only selected vertices.
     * **Border Edges**: Smooth only border edge vertices.
     * **Interior Vertices**: Smooth only interior vertices.
     * **Automatic**: Automatically smooth vertices based on the initial selection.  If the initial selection is an interior vertex, only interior vertices will be relaxed. If the initial selection is a border vertex, only border vertices will be relaxed.
