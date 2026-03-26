@@ -1,6 +1,9 @@
 # sphinx build folder
 _build
 
+# Python virtual environment
+venv
+
 # Compiled source #
 ###################
 *.com
