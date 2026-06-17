@@ -9,10 +9,6 @@ Draw Quad Rings is an alternative drawing mode for the :ref:`Draw Quads<draw_qua
 .. image:: _static/images/ring_mode_overview.gif
    :alt: Draw Quad Rings Overview
 
-.. note::
-
-   *Placeholder: replace with an animated GIF showing rings being drawn around a cylindrical limb.*
-
 ----------------------------------------------------------------------
 
 ---------------------------------
@@ -34,12 +30,8 @@ Switching to Ring Mode
 
 While the :ref:`Draw Quads<draw_quad_strip>` operation is active, press **Spacebar** to cycle between *Strip* and *Ring* mode. The current mode is displayed in the status bar at the bottom of the viewport.
 
-.. image:: _static/images/ring_mode_toggle.jpg
+.. image:: _static/images/ring_mode_toggle.gif
    :alt: Toggling Ring Mode
-
-.. note::
-
-   *Placeholder: screenshot of the mode indicator in the status bar and the top menu showing the active mode.*
 
 You can also set Ring mode as the default in the :ref:`Tool Settings<tool_settings>` so it is always active when you begin a Draw Quads session.
 
@@ -54,10 +46,6 @@ Using Draw Quad Rings
 .. image:: _static/images/ring_mode_usage.gif
    :alt: Draw Quad Rings Usage
 
-.. note::
-
-   *Placeholder: animated GIF showing the full click-and-drag workflow on an arm mesh.*
-
 #. **Activate Draw Quads** by holding ``D`` (or clicking the operation in the right-click menu).
 
 #. **Switch to Ring mode** by pressing ``Spacebar`` if it is not already active.
@@ -68,12 +56,10 @@ Using Draw Quad Rings
    * The **white ring** shows where the next row of quads will land on the target surface.
    * A **white arrow** tracks the mouse cursor and indicates the direction the rings will extend when you drag.
 
-   .. image:: _static/images/ring_mode_preview.jpg
+   .. figure:: _static/images/ring_mode_preview.jpg
       :alt: Ring Mode Preview
-
-   .. note::
-
-      *Placeholder: screenshot showing the orange ring, white ring, and direction arrow on a mesh.*
+      
+      A screenshot showing the orange ring, white ring, and direction arrow on a mesh.
 
 #. **Click and drag** in the direction you want the rings to extend. Hold the mouse button and drag along the surface; new rings of quads are stitched automatically as you move.
 
@@ -110,11 +96,7 @@ While hovering in Ring mode, several visual indicators help you understand where
 
 .. image:: _static/images/ring_mode_indicators.jpg
    :alt: Ring Mode Visual Indicators
-
-.. note::
-
-   *Placeholder: annotated screenshot labelling each of the indicators above.*
-
+   
 ----------------------------------------------------------------------
 
 .. _ring_mode_controls:
@@ -153,12 +135,6 @@ While the Draw Quads operation is active in Ring mode:
    .. image:: _static/images/ring_mode_wrong_direction.jpg
       :alt: Wrong Direction Indicator
 
-   .. note::
-
-      *Placeholder: screenshot showing the stop cursor and status bar warning when dragging the wrong way.*
-
-----------------------------------------------------------------------
-
 .. _ring_mode_smoothing:
 
 ---------------------------------
@@ -174,8 +150,6 @@ Because Draw Quad Rings uses a radial raycast to determine where each new ring l
 .. tip::
 
    A higher smoothing value produces more consistent ring spacing on curved surfaces. A lower value responds more directly to the local surface curvature, which can be useful for tighter curves.
-
-----------------------------------------------------------------------
 
 ---------------------------------
 X-Ray Mode

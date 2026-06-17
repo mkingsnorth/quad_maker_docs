@@ -189,12 +189,8 @@ While Operation is Active:
 
   **Ring Mode**
 
-  .. image:: _static/images/ring_mode_overview.gif
+  .. image:: _static/images/quad_ring_demo1.gif
       :alt: Draw Quad Rings
-
-  .. note::
-
-     *Placeholder: animated GIF showing Draw Quad Rings being used on a cylindrical limb.*
 
   Build rings of quads that follow the contours of a cylindrical form, ideal for retopologizing arms, legs, fingers, and other tube-like shapes. See :ref:`Draw Quad Rings<ring_mode>` for full details.
 
@@ -321,7 +317,3 @@ A Pie Menu is available either via the right-click Quad Maker edit mode menu or 
 .. tip::
     
         You can bind the pie menu to a short cut by right-clicking the Pie Menu option in the Quad Maker right-click menu and selecting *Assign Shortcut* or clicking on *Add to Quick Favorites* to quickly access it as a Favorite by pressing *Q*.  Please note that not all hotkeys work depending on what you are doing in Blender.
-
-
-
-----------------------------------------------------------------------
