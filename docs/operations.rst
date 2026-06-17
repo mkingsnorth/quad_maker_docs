@@ -149,7 +149,7 @@ Quick Loop Cut and Slide
 .. _draw_quad_strip:
 
 ---------------------------------
-Draw Quad Strips
+Draw Quads
 ---------------------------------
 
 :ref:`Tool Shortcut<tool>`:
@@ -159,25 +159,47 @@ Draw Quad Strips
 While Operation is Active:
 
 * ``[Tap F / Up & Down Arrows]``: Change strip size
-* ``[Tab]``: Toggle between Strip and :ref:`Ring mode<ring_mode>`
+* ``[Spacebar]``: Toggle between Strip and Ring mode
 
   .. note::
     When using the :ref:`Tool Shortcut<tool>`, keep holding D to keep the operation active.
 
+  Draw Quads has two modes, toggled with ``Spacebar``:
+
+----------------------------------------------------------------------
+
+.. _draw_quad_strips_mode:
+
+  **Strip Mode**
+
   .. image:: _static/images/draw_quad_strip.gif
       :alt: Draw Quad Strips
 
-  Click and move the mouse across the mesh to create a strip of quads.  Use the mouse wheel to adjust the size of the strip.
+  .. note::
 
-  Draw Quad Strip has two modes:
+     *Placeholder: animated GIF showing a freehand quad strip being drawn across a mesh surface.*
 
-  * **Strip Mode** (default) — paint a freehand strip of quads across the surface.
-  * **Ring Mode** — build rings of quads that follow the contours of a cylindrical form, ideal for retopologizing arms, legs, and other tube-like shapes.  Press ``Tab`` to switch to Ring mode.  See :ref:`Ring Mode<ring_mode>` for full details.
+  Click and move the mouse across the mesh to paint a freehand strip of quads onto the surface. Use the mouse wheel to adjust the size of the strip.
+
+----------------------------------------------------------------------
+
+.. _draw_quad_rings_mode:
+
+  **Ring Mode**
 
   .. image:: _static/images/ring_mode_overview.gif
-      :alt: Ring Mode
+      :alt: Draw Quad Rings
 
-      *Placeholder — animated GIF showing Ring mode on a cylindrical mesh.*
+  .. note::
+
+     *Placeholder: animated GIF showing Draw Quad Rings being used on a cylindrical limb.*
+
+  Build rings of quads that follow the contours of a cylindrical form, ideal for retopologizing arms, legs, fingers, and other tube-like shapes. See :ref:`Draw Quad Rings<ring_mode>` for full details.
+
+  .. toctree::
+     :maxdepth: 1
+
+     ring_mode
 
 ----------------------------------------------------------------------
 

@@ -80,9 +80,9 @@ These are the settings for all of Quad Maker's toolset.
     * **Point Spacing:** Set the size of a newly created point in pixels.
 * **Extend Borders:** 
     * **Extend Mode:** Select the type of :ref:`extrude mode<extrude_modes>` you wish to use.  This will change the way edges are extruded and faces are created.
-* **Draw Quad Strips:**
+* **Draw Quads:**
     * **Quad Strip Size:** Set the size of a newly created quad in pixels.
-    * **Strip Mode / Ring Mode:** Select whether Draw Quad Strip uses :ref:`standard Strip mode or Ring mode<ring_mode>`.  Can also be toggled with ``Tab`` while the operation is active.
+    * **Strip Mode / Ring Mode:** Select whether Draw Quads uses :ref:`Strip mode or Ring mode<ring_mode>`. Can also be toggled with ``Spacebar`` while the operation is active.
     * **Continuous Draw:** If enabled, the quad strip will continue to be drawn in one continuous strip until the operation is cancelled.
 
 * **Smooth:** 

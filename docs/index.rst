@@ -103,7 +103,6 @@ Beware!
    installation
    quick_start
    Operations <operations>
-   ring_mode
    tool
    preferences
    troubleshooting
