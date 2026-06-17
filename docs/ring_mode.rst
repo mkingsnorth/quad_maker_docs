@@ -135,8 +135,12 @@ While the Draw Quads operation is active in Ring mode:
      - Toggle between Strip and Ring mode.
    * - ``Left Click + Drag``
      - Extend rings in the drag direction.
-   * - ``F`` / ``Mouse Wheel`` / ``Up and Down Arrows``
-     - Adjust the quad strip size (controls how far each ring step advances along the surface).
+   * - ``F`` then move mouse
+     - Enter size adjust mode. Move the mouse to change the strip size, left click to confirm, right click to cancel.
+   * - ``Up Arrow`` / ``Right Bracket``
+     - Increase strip size by one step.
+   * - ``Down Arrow`` / ``Left Bracket``
+     - Decrease strip size by one step.
    * - ``Shift + F``
      - Adjust direction smoothing (see :ref:`ring_mode_smoothing`).
    * - ``Right Click`` / ``Escape``

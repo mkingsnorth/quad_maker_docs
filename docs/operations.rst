@@ -158,7 +158,9 @@ Draw Quads
 
 While Operation is Active:
 
-* ``[Tap F / Up & Down Arrows]``: Change strip size
+* ``[F]``: Enter size adjust mode, then move the mouse to change the strip size. Left click to confirm, right click to cancel.
+* ``[Up Arrow / Right Bracket]``: Increase strip size by one step
+* ``[Down Arrow / Left Bracket]``: Decrease strip size by one step
 * ``[Spacebar]``: Toggle between Strip and Ring mode
 
   .. note::
