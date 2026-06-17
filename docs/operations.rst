@@ -152,13 +152,14 @@ Quick Loop Cut and Slide
 Draw Quad Strips
 ---------------------------------
 
-:ref:`Tool Shortcut<tool>`: 
+:ref:`Tool Shortcut<tool>`:
 
 * ``[Hold D and Left Click + Drag]``
 
 While Operation is Active:
 
 * ``[Tap F / Up & Down Arrows]``: Change strip size
+* ``[Tab]``: Toggle between Strip and :ref:`Ring mode<ring_mode>`
 
   .. note::
     When using the :ref:`Tool Shortcut<tool>`, keep holding D to keep the operation active.
@@ -167,6 +168,16 @@ While Operation is Active:
       :alt: Draw Quad Strips
 
   Click and move the mouse across the mesh to create a strip of quads.  Use the mouse wheel to adjust the size of the strip.
+
+  Draw Quad Strip has two modes:
+
+  * **Strip Mode** (default) — paint a freehand strip of quads across the surface.
+  * **Ring Mode** — build rings of quads that follow the contours of a cylindrical form, ideal for retopologizing arms, legs, and other tube-like shapes.  Press ``Tab`` to switch to Ring mode.  See :ref:`Ring Mode<ring_mode>` for full details.
+
+  .. image:: _static/images/ring_mode_overview.gif
+      :alt: Ring Mode
+
+      *Placeholder — animated GIF showing Ring mode on a cylindrical mesh.*
 
 ----------------------------------------------------------------------
 
