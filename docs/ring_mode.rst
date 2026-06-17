@@ -24,7 +24,7 @@ Draw Quad Rings works best when you are retopologizing:
 * **Cylindrical or tube-like forms** such as arms, legs, fingers, and necks.
 * **Organic loops** around muscle masses, facial features, or any area where you want evenly-spaced edge rings following the contour of the surface.
 
-For flat or planar surfaces, the standard :ref:`Draw Quad Strips<draw_quad_strip>` mode is usually more appropriate.
+For flat or planar surfaces, the standard :ref:`Draw Quad Strips mode<draw_quad_strips_mode>` is usually more appropriate.
 
 ----------------------------------------------------------------------
 
@@ -213,7 +213,7 @@ Draw Quad Rings honours the :ref:`Target Object<tool_settings>` setting in the s
 Known Limitations
 ---------------------------------
 
-* **Non-tube geometry:** Draw Quad Rings computes each new ring by raycasting radially from the leading edge ring's centroid. On flat or convex-only surfaces (such as a chest or forehead) where there is no opposite wall for the ray to hit, rings may jump further than expected. In these cases, switch to standard :ref:`Draw Quad Strips<draw_quad_strip>` mode.
+* **Non-tube geometry:** Draw Quad Rings computes each new ring by raycasting radially from the leading edge ring's centroid. On flat or convex-only surfaces (such as a chest or forehead) where there is no opposite wall for the ray to hit, rings may jump further than expected. In these cases, switch to standard :ref:`Draw Quad Strips mode<draw_quad_strips_mode>`.
 
 * **Heavily angled starts:** Beginning a ring strip on a steeply angled surface may cause the first ring to be placed slightly further than anticipated. Adjust the quad strip size with ``F`` to compensate.
 
