@@ -47,6 +47,11 @@ Smooth Strength Steps (Amount)
 
 When increasing or decreasing the strength of the Smooth brush, how much to increase or decrease the strength by.
 
+Ring Mode Ray Count
+------------------------------------------------------------
+
+The number of radial rays cast outward to compute each ring cross-section in :ref:`Draw Quad Rings<ring_mode>` mode. Higher values produce smoother, more accurate rings but are slower to compute. Lower values are faster but may miss fine surface detail. The default of 32 works well for most meshes.
+
 ======================================================
 Keyboard Shortcuts
 ======================================================
