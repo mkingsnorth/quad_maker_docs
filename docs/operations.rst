@@ -185,19 +185,23 @@ While Operation is Active:
 
 ----------------------------------------------------------------------
 
-.. _draw_quad_rings_mode:
+.. _draw_place_ring_mode:
 
-  **Ring Mode**
+  **Place Ring Mode**
 
-  .. image:: _static/images/quad_ring_demo1.gif
-      :alt: Draw Quad Rings
+  .. image:: _static/images/place_ring_overview.gif
+      :alt: Place Ring
 
-  Build rings of quads that follow the contours of a cylindrical form, ideal for retopologizing arms, legs, fingers, and other tube-like shapes. See :ref:`Draw Quad Rings<ring_mode>` for full details.
+  .. note::
+
+     *Placeholder: animated GIF showing a few points clicked across a limb, the path being adjusted, then committed as a ring sleeve.*
+
+  Click a handful of points to define a path, then build a ring-based sleeve of quads along the fitted curve — ideal for retopologizing arms, legs, fingers, and other tube-like shapes where you want to review and adjust the path before committing. See :ref:`Place Ring<place_ring_mode>` for full details.
 
   .. toctree::
      :maxdepth: 1
 
-     ring_mode
+     place_ring_mode
 
 ----------------------------------------------------------------------
 
