@@ -42,6 +42,12 @@ Inspired by Maya's Quad Draw, Quad Maker offers Blender users a way to speed up 
          :width: 100%
          :alt: Image 4
 
+   * - .. image:: _static/images/place_ring_summary.gif
+         :width: 100%
+         :alt: Place Ring
+
+     -
+
 The operations are:
 
 * :ref:`Add Vertices<add_vertices>`: Quickly add point vertices.
