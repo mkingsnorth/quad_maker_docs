@@ -52,7 +52,7 @@ The operations are:
 * :ref:`Smooth Vertices<smooth_verts>`: Smooth out vertices in edit mode.
 * :ref:`Delete Mode<delete_mode>`: Quickly delete vertices, edges and faces and dissolve interior edges in a single click/drag operation.
 
-.. image:: _static/images/place_ring_summary.gif
+.. image:: _static/images/place_ring_overview.gif
    :width: 100%
    :alt: Place Ring
 
