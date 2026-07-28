@@ -43,7 +43,7 @@ While the :ref:`Draw Quads<draw_quad_strip>` operation is active, press **Spaceb
 .. image:: _static/images/place_ring_toggle.gif
    :alt: Toggling Place Ring Mode
 
-You can also set Place Ring as the default in the :ref:`Tool Settings<tool_settings>` so it is always active when you begin a Draw Quads session.
+You can also select Place Ring directly in the :ref:`Tool Settings<tool_settings>` panel instead of pressing Spacebar. It stays selected for the rest of your session in that file, but this isn't a saved preference: a new file always starts back on Strip mode.
 
 ----------------------------------------------------------------------
 
