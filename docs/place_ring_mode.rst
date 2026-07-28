@@ -9,11 +9,16 @@ Place Ring is an alternative drawing mode for the :ref:`Draw Quads<draw_quad_str
 .. image:: _static/images/place_ring_overview.gif
    :alt: Place Ring Overview
 
-.. note::
 
-   *Placeholder: animated GIF showing a full Place Ring session — clicking several points across a limb, finishing placement, and committing the geometry.*
+.. tip::
+
+   You can achieve the same red wax shading effect in the screenshots seen here by enabling the "Red Wax" viewport MatCap option.
+
+   .. image:: _static/images/red_clay_shading.jpg
+      :alt: Red Clay MatCap
 
 ----------------------------------------------------------------------
+
 
 ---------------------------------
 When to Use Place Ring
@@ -21,9 +26,9 @@ When to Use Place Ring
 
 Place Ring works best when you are retopologizing:
 
-* **Cylindrical or tube-like forms** such as arms, legs, fingers, and necks, especially where the form bends or winds — a few well-placed points describe a curve more predictably than a continuous drag.
+* **Cylindrical or tube-like forms** such as arms, legs, fingers, and necks, especially where the form bends or winds, since a few well-placed points describe a curve more predictably than a continuous drag.
 * **Paths where you want to check the result before committing.** Because placement and editing are separate phases, you can reposition, insert, or delete points and watch the preview update before any geometry is created.
-* **Limbs that need varying loop density**, for example denser loops near a joint for better deformation — see :ref:`Per-Point Loop Density<place_ring_mode_density>`.
+* **Limbs that need varying loop density**, for example denser loops near a joint for better deformation (see :ref:`Per-Point Loop Density<place_ring_mode_density>`).
 
 For flat or planar surfaces, the standard :ref:`Draw Quad Strips mode<draw_quad_strips_mode>` is usually more appropriate.
 
@@ -38,10 +43,6 @@ While the :ref:`Draw Quads<draw_quad_strip>` operation is active, press **Spaceb
 .. image:: _static/images/place_ring_toggle.gif
    :alt: Toggling Place Ring Mode
 
-.. note::
-
-   *Placeholder: animated GIF showing Spacebar toggling between Strip and Place Ring mode, with the status bar text changing.*
-
 You can also set Place Ring as the default in the :ref:`Tool Settings<tool_settings>` so it is always active when you begin a Draw Quads session.
 
 ----------------------------------------------------------------------
@@ -55,10 +56,6 @@ Placing Points
 .. image:: _static/images/place_ring_placing.gif
    :alt: Placing Points in Place Ring Mode
 
-.. note::
-
-   *Placeholder: animated GIF showing several points being clicked across a curved limb, with the live preview curve updating as the mouse moves before each click.*
-
 #. **Activate Draw Quads** by holding ``D`` (or clicking the operation in the right-click menu).
 
 #. **Switch to Place Ring mode** by pressing ``Spacebar`` if it is not already active.
@@ -69,11 +66,11 @@ Placing Points
 
    .. tip::
 
-      You don't need many points — a handful placed at the start, end, and any bends is usually enough. The curve is fitted smoothly through them.
+      You don't need many points: a handful placed at the start, end, and any bends is usually enough. The curve is fitted smoothly through them.
 
 #. **Finish placement** with a **double-click**, ``Enter``, or ``Right Click`` (the latter two require at least 2 points already placed). A double-click adds one final point at the cursor before finishing; Enter and Right Click finish without adding a pending point.
 
-Finishing placement does not create any geometry yet — it moves you into the editing phase below, where you can review and adjust the whole path first.
+Finishing placement does not create any geometry yet. It moves you into the editing phase below, where you can review and adjust the whole path first.
 
 ----------------------------------------------------------------------
 
@@ -86,19 +83,39 @@ Editing the Path
 .. image:: _static/images/place_ring_editing.gif
    :alt: Editing a Place Ring Path
 
-.. note::
-
-   *Placeholder: animated GIF showing a placed path being edited — dragging a point, inserting a point by clicking the curve, and extending from an end with Ctrl+Click.*
-
 Once placement is finished, the path can be freely adjusted before it is committed to geometry:
 
 * **Drag an existing point** by clicking and holding on it, then moving the mouse. The point follows the cursor in screen space at its current depth.
 * **Insert a new point** by clicking anywhere on the curve between two existing points (not on a point itself).
-* **Extend the path** by holding ``Ctrl`` and clicking away from the path — this adds a new point at whichever end (start or finish) is closer to your click.
-* **Delete a point** by holding ``X`` (or ``Del`` / ``Backspace``) and clicking on it — see :ref:`Deleting and Inserting Points<place_ring_mode_delete>` below. At least 2 points must remain.
-* **Adjust loop density** for the nearest point with ``Shift + F`` — see :ref:`Per-Point Loop Density<place_ring_mode_density>`.
+* **Extend the path** by holding ``Ctrl`` and clicking away from the path. This adds a new point at whichever end (start or finish) is closer to your click.
+* **Delete a point** by holding ``X`` (or ``Del`` / ``Backspace``) and clicking on it (see :ref:`Deleting and Inserting Points<place_ring_mode_delete>` below). At least 2 points must remain.
+* **Adjust loop density** for the nearest point with ``Shift + F`` (see :ref:`Per-Point Loop Density<place_ring_mode_density>`).
 
 When you're happy with the path, **double-click** or press ``Enter`` to commit the geometry.
+
+----------------------------------------------------------------------
+
+.. _place_ring_mode_size:
+
+---------------------------------
+Adjusting Ring Size
+---------------------------------
+
+.. image:: _static/images/place_ring_resizing.gif
+   :alt: Adjusting Ring Size
+
+Press ``F`` at any time, whether you're still placing points or already editing the path, to change the **Quad Size** that controls how far apart rings are spaced along the sleeve. Move the mouse to resize, left click to confirm, or right click to cancel.
+
+* ``Up Arrow`` / ``Right Bracket``: increase the size by one step without entering the drag mode above.
+* ``Down Arrow`` / ``Left Bracket``: decrease the size by one step.
+
+.. note::
+
+   Quad Size is a single setting shared with Strip mode, not something saved per point or per path. Changing it while working on one Place Ring sleeve also changes the default the next time you draw quads.
+
+.. note::
+
+   Resizing recomputes ring spacing for the whole path at once, anchored to its first point, not just the area near your mouse. Because the number of rings along a sleeve is its length divided by this size, adjusting it during editing can add or remove several rings rather than just making the current one bigger or smaller.
 
 ----------------------------------------------------------------------
 
@@ -117,7 +134,7 @@ While placing or editing in Place Ring mode, several visual indicators help you 
    * - **Hollow circles**
      - Each already-placed control point.
    * - **Dashed curve line**
-     - The fitted path connecting your control points — dashed to distinguish Place Ring's preview from the solid line used by Strip mode.
+     - The fitted path connecting your control points, dashed to distinguish Place Ring's preview from the solid line used by Strip mode.
    * - **Live point (while placing)**
      - The pending point that follows the mouse before your next click.
    * - **Amber density label**
@@ -133,10 +150,6 @@ While placing or editing in Place Ring mode, several visual indicators help you 
 
 .. image:: _static/images/place_ring_indicators.jpg
    :alt: Place Ring Visual Indicators
-
-.. note::
-
-   *Placeholder: annotated screenshot pointing out the control point circles, dashed curve, and density label on an in-progress path.*
 
 ----------------------------------------------------------------------
 
@@ -163,7 +176,11 @@ Controls
    * - ``Ctrl + Z``
      - Undo the last placed point. Undoing the first point cancels back to no path.
    * - ``F`` then move mouse
-     - Enter size adjust mode. Move the mouse to change the ring size, left click to confirm, right click to cancel.
+     - Enter size adjust mode (see :ref:`Adjusting Ring Size<place_ring_mode_size>`). Move the mouse to change the ring size, left click to confirm, right click to cancel.
+   * - ``Up Arrow`` / ``Right Bracket``
+     - Increase ring size by one step.
+   * - ``Down Arrow`` / ``Left Bracket``
+     - Decrease ring size by one step.
    * - ``Escape``
      - Cancel the whole path.
    * - ``Spacebar``
@@ -189,6 +206,12 @@ Controls
      - Delete that point (minimum 2 points enforced).
    * - ``Shift + F``
      - Adjust loop density at the point nearest the mouse (see :ref:`Per-Point Loop Density<place_ring_mode_density>`).
+   * - ``F`` then move mouse
+     - Enter size adjust mode (see :ref:`Adjusting Ring Size<place_ring_mode_size>`). Move the mouse to change the ring size, left click to confirm, right click to cancel.
+   * - ``Up Arrow`` / ``Right Bracket``
+     - Increase ring size by one step.
+   * - ``Down Arrow`` / ``Left Bracket``
+     - Decrease ring size by one step.
    * - ``Escape`` / ``Right Click``
      - Cancel the whole path.
 
@@ -214,10 +237,6 @@ Each control point has its own loop density, letting you pack rings more tightly
 .. image:: _static/images/place_ring_density.gif
    :alt: Adjusting Per-Point Loop Density
 
-.. note::
-
-   *Placeholder: animated GIF showing Shift+F increasing density near one point, with rings visibly packing closer together around it.*
-
 ----------------------------------------------------------------------
 
 .. _place_ring_mode_delete:
@@ -234,10 +253,6 @@ Deleting a point requires a deliberate two-part gesture rather than a single key
 .. image:: _static/images/place_ring_delete.gif
    :alt: Deleting a Point in Place Ring Mode
 
-.. note::
-
-   *Placeholder: animated GIF showing X held down (eraser cursor appearing over a point), then clicking to delete it, and the sleeve preview reflowing through the remaining points.*
-
 Inserting a point is a single click: click anywhere on the dashed curve between two existing points, away from any point itself, and a new point is added there, splitting the segment.
 
 ----------------------------------------------------------------------
@@ -250,10 +265,6 @@ When Blender's **Show X-Ray** viewport option is enabled, the ring preview is dr
 
 .. image:: _static/images/place_ring_xray.jpg
    :alt: Place Ring X-Ray
-
-.. note::
-
-   *Placeholder: side-by-side screenshot comparing the Place Ring preview in normal mode and X-Ray mode.*
 
 ----------------------------------------------------------------------
 
@@ -278,11 +289,11 @@ Place Ring honours the :ref:`Target Object<tool_settings>` setting in the same w
 Known Limitations
 ---------------------------------
 
-* **Ambiguous joints:** at a point placed directly on a shoulder or similarly ambiguous joint, there is no clear "far wall" for the ring to measure against, so the resulting ring may be larger than expected. This is a predictable, local artifact rather than a bug — if it happens, try moving the point slightly or adding an extra point either side of the joint.
+* **Ambiguous joints:** at a point placed directly on a shoulder or similarly ambiguous joint, there is no clear "far wall" for the ring to measure against, so the resulting ring may be larger than expected. This is a predictable, local artifact rather than a bug. If it happens, try moving the point slightly or adding an extra point either side of the joint.
 
 * **Grazing view angles:** each point's depth is found by probing along the camera's view ray. At very shallow, near-tangential viewing angles, that probe can in rare cases skim past the intended surface and land on unrelated geometry further away. Rotating the view before placing or adjusting a point resolves this.
 
-* **View-dependent preview:** because a point's depth comes from the view ray at the moment it's placed, the preview can look different after rotating the view, even though nothing has moved — only the point's on-screen position is guaranteed to stay put. This settles down once you rotate to inspect the result.
+* **View-dependent preview:** because a point's depth comes from the view ray at the moment it's placed, the preview can look different after rotating the view, even though nothing has moved; only the point's on-screen position is guaranteed to stay put. This settles down once you rotate to inspect the result.
 
 * **Open ends:** a committed sleeve is always open at both ends; there is currently no option to cap an end (for example, at a finger tip).
 
@@ -294,7 +305,7 @@ Tips
 
 .. tip::
 
-   Place fewer points along straight sections and add extra points at bends — the curve is fitted through them, so bends need points to describe them but straight runs don't.
+   Place fewer points along straight sections and add extra points at bends. The curve is fitted through them, so bends need points to describe them but straight runs don't.
 
 .. tip::
 
