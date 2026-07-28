@@ -177,10 +177,6 @@ While Operation is Active:
   .. image:: _static/images/draw_quad_strip.gif
       :alt: Draw Quad Strips
 
-  .. note::
-
-     *Placeholder: animated GIF showing a freehand quad strip being drawn across a mesh surface.*
-
   Click and move the mouse across the mesh to paint a freehand strip of quads onto the surface. Use the mouse wheel to adjust the size of the strip.
 
 ----------------------------------------------------------------------
@@ -192,11 +188,7 @@ While Operation is Active:
   .. image:: _static/images/place_ring_overview.gif
       :alt: Place Ring
 
-  .. note::
-
-     *Placeholder: animated GIF showing a few points clicked across a limb, the path being adjusted, then committed as a ring sleeve.*
-
-  Click a handful of points to define a path, then build a ring-based sleeve of quads along the fitted curve — ideal for retopologizing arms, legs, fingers, and other tube-like shapes where you want to review and adjust the path before committing. See :ref:`Place Ring<place_ring_mode>` for full details.
+  Click a handful of points to define a path, then build a ring-based sleeve of quads along the fitted curve, ideal for retopologizing arms, legs, fingers, and other tube-like shapes where you want to review and adjust the path before committing. See :ref:`Place Ring<place_ring_mode>` for full details.
 
   .. toctree::
      :maxdepth: 1
