@@ -21,30 +21,21 @@ What is Quad Maker?
 
 Inspired by Maya's Quad Draw, Quad Maker offers Blender users a way to speed up their retopology workflow while maintaining flexibility within Blender's existing toolset.
 
-.. list-table::
-   :widths: 50 50
-   :header-rows: 0
-   :align: center
+.. raw:: html
 
-   * - .. image:: _static/images/draw_quad_strip.gif
-         :width: 100%
-         :alt: Image 1
-
-     - .. image:: _static/images/extrude_edges_ring.gif
-         :width: 100%
-         :alt: Image 2
-
-   * - .. image:: _static/images/extrude_edge_ring_arm.gif
-         :width: 100%
-         :alt: Image 3
-
-     - .. image:: _static/images/smooth_verts.gif
-         :width: 100%
-         :alt: Image 4
-
-.. image:: _static/images/place_ring_summary.gif
-   :width: 100%
-   :alt: Place Ring
+   <table class="docutils align-center">
+     <tr>
+       <td style="width:50%;"><img src="_static/images/draw_quad_strip.gif" style="width:100%;" alt="Image 1"></td>
+       <td style="width:50%;"><img src="_static/images/extrude_edges_ring.gif" style="width:100%;" alt="Image 2"></td>
+     </tr>
+     <tr>
+       <td style="width:50%;"><img src="_static/images/extrude_edge_ring_arm.gif" style="width:100%;" alt="Image 3"></td>
+       <td style="width:50%;"><img src="_static/images/smooth_verts.gif" style="width:100%;" alt="Image 4"></td>
+     </tr>
+     <tr>
+       <td colspan="2" style="text-align:center;"><img src="_static/images/place_ring_summary.gif" style="width:100%;" alt="Place Ring"></td>
+     </tr>
+   </table>
 
 The operations are:
 
