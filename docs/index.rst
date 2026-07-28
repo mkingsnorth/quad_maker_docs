@@ -21,21 +21,26 @@ What is Quad Maker?
 
 Inspired by Maya's Quad Draw, Quad Maker offers Blender users a way to speed up their retopology workflow while maintaining flexibility within Blender's existing toolset.
 
-.. raw:: html
+.. list-table::
+   :widths: 50 50
+   :header-rows: 0
+   :align: center
 
-   <table class="docutils align-center">
-     <tr>
-       <td style="width:50%;"><img src="_static/images/draw_quad_strip.gif" style="width:100%;" alt="Image 1"></td>
-       <td style="width:50%;"><img src="_static/images/extrude_edges_ring.gif" style="width:100%;" alt="Image 2"></td>
-     </tr>
-     <tr>
-       <td style="width:50%;"><img src="_static/images/extrude_edge_ring_arm.gif" style="width:100%;" alt="Image 3"></td>
-       <td style="width:50%;"><img src="_static/images/smooth_verts.gif" style="width:100%;" alt="Image 4"></td>
-     </tr>
-     <tr>
-       <td colspan="2" style="text-align:center;"><img src="_static/images/place_ring_summary.gif" style="width:100%;" alt="Place Ring"></td>
-     </tr>
-   </table>
+   * - .. image:: _static/images/draw_quad_strip.gif
+         :width: 100%
+         :alt: Image 1
+
+     - .. image:: _static/images/extrude_edges_ring.gif
+         :width: 100%
+         :alt: Image 2
+
+   * - .. image:: _static/images/extrude_edge_ring_arm.gif
+         :width: 100%
+         :alt: Image 3
+
+     - .. image:: _static/images/smooth_verts.gif
+         :width: 100%
+         :alt: Image 4
 
 The operations are:
 
@@ -46,6 +51,10 @@ The operations are:
 * :ref:`Draw Quads<draw_quad_strip>`: Draw strips or rings of quads on a target surface.
 * :ref:`Smooth Vertices<smooth_verts>`: Smooth out vertices in edit mode.
 * :ref:`Delete Mode<delete_mode>`: Quickly delete vertices, edges and faces and dissolve interior edges in a single click/drag operation.
+
+.. image:: _static/images/place_ring_summary.gif
+   :width: 100%
+   :alt: Place Ring
 
 With a focus on speed and simplicity, Quad Maker brings together these essential retopology operations into a unified, hotkey-driven workspace tool, aiming for seamless integration with Blender’s native mesh editing tools:
 
