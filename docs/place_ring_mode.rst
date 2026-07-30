@@ -4,6 +4,12 @@
 Place Ring
 #####################################
 
+.. raw:: html
+
+   <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin-bottom:1em;">
+     <iframe src="https://www.youtube.com/embed/FQcFKhMepgM" title="Quad Maker: Place Ring" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
 Place Ring is an alternative drawing mode for the :ref:`Draw Quads<draw_quad_strip>` operation. Instead of freely painting a strip of quads or dragging continuously along the surface, you click a handful of points to define a path, then the tool fits a smooth curve through them and builds a ring-based sleeve of quads along it. This gives you deliberate control over where each ring lands before any geometry is created, making it ideal for retopologizing tube-like forms such as arms, legs, fingers, and torsos.
 
 .. image:: _static/images/place_ring_overview.gif
