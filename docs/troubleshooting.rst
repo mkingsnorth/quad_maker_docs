@@ -17,9 +17,9 @@ The :ref:`New Object with Quad Maker<new_blank_mesh>` option is greyed out.  Why
 
 Make sure you have an object selected in Object Mode before trying to use this option.  If you have an object selected in Edit Mode, the option will be greyed out.
 
------------------------------------------
+----------------------------------------------------
 Can I change the keyboard shortcuts for the tool?
------------------------------------------
+----------------------------------------------------
 
 Go to Edit - Preferences - Add-ons and search for *Quad Maker* and expand the Quad Maker Section.  Here you can change the keyboard shortcuts for each operation.
 

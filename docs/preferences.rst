@@ -32,10 +32,10 @@ Extrude Vertex Proximity (Pixels)
 
 How close to the mouse needs to be to a vertex to extrude it a face from it when using the Extend Borders operation.
 
-Quad Strip Size Step (Pixels)
+Quad Size Step (Pixels)
 ------------------------------------------------------------
 
-When increasing or decreasing the size of the Quad Strip, how much to increase or decrease the size by.
+When increasing or decreasing the quad size, how much to increase or decrease the size by.
 
 Smooth Radius Steps (Pixels)
 ------------------------------------------------------------
@@ -46,6 +46,11 @@ Smooth Strength Steps (Amount)
 ------------------------------------------------------------
 
 When increasing or decreasing the strength of the Smooth brush, how much to increase or decrease the strength by.
+
+Ring Ray Count
+------------------------------------------------------------
+
+The number of radial rays cast outward to compute each ring cross-section in :ref:`Place Ring<place_ring_mode>` mode. Higher values produce smoother, more accurate rings but are slower to compute. Lower values are faster but may miss fine surface detail. The default of 32 works well for most meshes.
 
 ======================================================
 Keyboard Shortcuts

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "quad_maker_docs",
+      "runtimeExecutable": "C:\\Users\\markk\\AppData\\Local\\Python\\bin\\python.exe",
+      "runtimeArgs": ["-m", "http.server", "8177", "--directory", "docs/_build/html"],
+      "port": 8177
+    }
+  ]
+}

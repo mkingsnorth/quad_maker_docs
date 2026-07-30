@@ -149,24 +149,51 @@ Quick Loop Cut and Slide
 .. _draw_quad_strip:
 
 ---------------------------------
-Draw Quad Strips
+Draw Quads
 ---------------------------------
 
-:ref:`Tool Shortcut<tool>`: 
+:ref:`Tool Shortcut<tool>`:
 
 * ``[Hold D and Left Click + Drag]``
 
 While Operation is Active:
 
-* ``[Tap F / Up & Down Arrows]``: Change strip size
+* ``[F]``: Enter size adjust mode, then move the mouse to change the strip size. Left click to confirm, right click to cancel.
+* ``[Up Arrow / Right Bracket]``: Increase strip size by one step
+* ``[Down Arrow / Left Bracket]``: Decrease strip size by one step
+* ``[Spacebar]``: Toggle between Strip and Ring mode
 
   .. note::
     When using the :ref:`Tool Shortcut<tool>`, keep holding D to keep the operation active.
 
+  Draw Quads has two modes, toggled with ``Spacebar``:
+
+----------------------------------------------------------------------
+
+.. _draw_quad_strips_mode:
+
+  **Strip Mode**
+
   .. image:: _static/images/draw_quad_strip.gif
       :alt: Draw Quad Strips
 
-  Click and move the mouse across the mesh to create a strip of quads.  Use the mouse wheel to adjust the size of the strip.
+  Click and move the mouse across the mesh to paint a freehand strip of quads onto the surface. Use the mouse wheel to adjust the size of the strip.
+
+----------------------------------------------------------------------
+
+.. _draw_place_ring_mode:
+
+  **Place Ring Mode**
+
+  .. image:: _static/images/place_ring_overview.gif
+      :alt: Place Ring
+
+  Click a handful of points to define a path, then build a ring-based sleeve of quads along the fitted curve, ideal for retopologizing arms, legs, fingers, and other tube-like shapes where you want to review and adjust the path before committing. See :ref:`Place Ring<place_ring_mode>` for full details.
+
+  .. toctree::
+     :maxdepth: 1
+
+     place_ring_mode
 
 ----------------------------------------------------------------------
 
@@ -286,7 +313,3 @@ A Pie Menu is available either via the right-click Quad Maker edit mode menu or 
 .. tip::
     
         You can bind the pie menu to a short cut by right-clicking the Pie Menu option in the Quad Maker right-click menu and selecting *Assign Shortcut* or clicking on *Add to Quick Favorites* to quickly access it as a Favorite by pressing *Q*.  Please note that not all hotkeys work depending on what you are doing in Blender.
-
-
-
-----------------------------------------------------------------------
