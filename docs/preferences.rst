@@ -47,6 +47,13 @@ Smooth Strength Steps (Amount)
 
 When increasing or decreasing the strength of the Smooth brush, how much to increase or decrease the strength by.
 
+.. _screen_space_proportional_editing:
+
+Screen Space Proportional Editing
+------------------------------------------------------------
+
+When proportional editing is enabled, tweak vertices with Quad Maker's own :ref:`Proportional Tweak<proportional_tweak>`, which measures the falloff on screen and leaves hidden vertices alone.  Disable this to use Blender's built-in proportional editing instead.  Enabled by default.
+
 Ring Ray Count
 ------------------------------------------------------------
 
@@ -63,8 +70,10 @@ This allows you to change the keyboard shortcuts for each :ref:`operation<operat
     If **Emulate 3 Button Mouse** is checked under Blender's *Edit - Preferences - Input* tab and the *Alt* key is used as the middle mouse button, the *shift* key is always used to perform loop selections
 
 
+.. _color_settings:
+
 ======================================================
 Color Settings
 ======================================================
 
-These allow you to change the color for each :ref:`operation<operations>` in Quad Maker.
+These allow you to change the color for each :ref:`operation<operations>` in Quad Maker.  For example, *Edge Slice Vertex Color* sets the color of the vertices shown in the :ref:`Quick Cut<quick_cut>` preview.

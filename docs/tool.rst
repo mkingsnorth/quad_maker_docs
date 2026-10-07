@@ -90,6 +90,13 @@ These are the settings for all of Quad Maker's toolset.
     * **Strength:** Set the strength of the brush.
     * **Radius:** Set the size of the brush in pixels.
 
+* **Proportional Tweak:** Settings for :ref:`Proportional Tweak<proportional_tweak>` when :ref:`tweaking<tweak_elements>` vertices.
+    * **Enable:** Turn proportional editing on or off.  This is Blender's own proportional editing toggle, also available with ``O``.
+    * **Falloff:** The shape of the falloff, using Blender's falloff types.
+    * **Size:** Blender's Proportional Size.  It can also be changed while dragging with the mouse wheel or ``Page Up`` / ``Page Down``.
+    * **Connected Only:** Only move vertices connected to the ones being tweaked.
+    * **Exclude Occluded:** Leave out vertices that can't be seen from the view, such as those on the far side of a thin surface.  Shown when :ref:`Screen Space Proportional Editing<screen_space_proportional_editing>` is enabled; otherwise Blender's *Projected from View* option is shown instead.
+
 .. _retopology_menu:
 
 ------------------

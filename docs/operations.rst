@@ -144,6 +144,8 @@ Quick Loop Cut and Slide
 
   Just by holding R and clicking the mouse over the edges.
 
+  The preview shows the new edge loop and the vertices it will create, so you can see exactly where the cut will go before you click.  The color of the preview vertices can be changed in the :ref:`preferences<color_settings>` (*Edge Slice Vertex Color*).
+
 ----------------------------------------------------------------------
 
 .. _draw_quad_strip:
@@ -246,7 +248,7 @@ Delete Mode
 
 * ``[Hold X and Left Click + Drag]``
 
-  Delete Faces, Edge Loops, and lone Vertices. Quickly click and drag over a mesh to delete elements by holding X:
+  Delete Faces, Edge Loops, and Vertices. Quickly click and drag over a mesh to delete elements by holding X:
 
 ----------------------------------------------------------------------
 
@@ -264,18 +266,20 @@ Delete Mode
 
 ----------------------------------------------------------------------
 
-  * **Delete Lone Vertices** - Click and drag over vertices that have no edges to delete them.
+  * **Delete Vertices** - Hover over any vertex to pick it, then click to remove it.  Vertices that are part of faces are dissolved, keeping the surrounding faces; lone vertices with no edges are deleted.
 
     .. image:: _static/images/delete_verts.gif
-        :alt: Delete Lone Vertices
+        :alt: Delete Vertices
 
 ----------------------------------------------------------------------
+
+.. _tweak_elements:
 
 ---------------------------------
 Tweak Elements
 ---------------------------------
 
-:ref:`Tool Shortcut<tool>`: 
+:ref:`Tool Shortcut<tool>`:
 
 * ``[Left Click + Drag]``
 
@@ -287,6 +291,29 @@ Tweak Elements
   .. note::
 
     \* When *Emulate 3 Button Mouse* is selected in preferences and the Alt key is used for the middle mouse,  ``Hold Shift + Left Click + Drag`` to select and move edge loops instead.
+
+.. _proportional_tweak:
+
+  **Proportional Tweak**
+
+  Turn on proportional editing as usual with ``O`` (or from the :ref:`Proportional Tweak<tool_settings>` tool settings) and drag a vertex: nearby vertices follow with a smooth falloff.
+
+  Unlike Blender's built-in proportional editing, the falloff is measured **on screen**, and **vertices you can't see are left alone**.  Grabbing a vertex on a thin surface, such as clothing, an ear or an eyelid, no longer drags the vertices on the other side with it, and nothing hidden behind another part of the model moves either.
+
+  While dragging:
+
+  * ``[Mouse Wheel / Page Up & Page Down]``: Change the proportional size.  Hold ``Shift`` for finer steps.  Any keys you have remapped for Blender's proportional editing also work.
+
+  Everything else works the way it does in Blender:
+
+  * **Proportional Size** is Blender's own setting, shown as the same circle around the selection.
+  * Blender's **falloff types** and **Connected Only** option are used.
+  * **Exclude Occluded** leaves out vertices that face away from the view or are hidden behind the target object.  It is on by default, and is ignored in X-Ray.
+  * After a tweak, the **Adjust Last Operation** panel lets you change the move, the proportional size, falloff and other options, as with Blender's Move.
+
+  .. tip::
+
+    To use Blender's built-in proportional editing instead, turn off :ref:`Screen Space Proportional Editing<screen_space_proportional_editing>` in the add-on preferences.
 
 ----------------------------------------------------------------------
 

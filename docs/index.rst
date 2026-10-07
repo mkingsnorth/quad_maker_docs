@@ -51,6 +51,7 @@ The operations are:
 * :ref:`Draw Quads<draw_quad_strip>`: Draw strips or rings of quads on a target surface.
 * :ref:`Smooth Vertices<smooth_verts>`: Smooth out vertices in edit mode.
 * :ref:`Delete Mode<delete_mode>`: Quickly delete vertices, edges and faces and dissolve interior edges in a single click/drag operation.
+* :ref:`Tweak Elements<tweak_elements>`: Move vertices, edges and faces along the surface, with :ref:`Proportional Tweak<proportional_tweak>` that leaves hidden vertices alone.
 
 .. image:: _static/images/place_ring_overview.gif
    :width: 100%

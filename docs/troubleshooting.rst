@@ -37,6 +37,18 @@ Go to Edit - Preferences - Add-ons and search for *Quad Maker* and expand the Qu
 
     Changing the keyboard shortcuts is therefore not recommended as it may cause conflicts with Blender or other add-ons.
 
+-----------------------------------------------------------------------------------------------------
+Holding a Quad Maker key shows an error such as "No edges selected".  Why?
+-----------------------------------------------------------------------------------------------------
+
+This happened in versions before 1.4.0 when one of Blender's own tools was assigned to the same key, for example *Fill* on ``F`` with *Repeat* enabled in Blender's keymap.  While the key was held, Blender's shortcut could run as well, report an error, and leave the Quad Maker operation unresponsive.  Update to Quad Maker 1.4.0 or later, where the keys a Quad Maker operation is using are no longer passed on to Blender.
+
+-----------------------------------------------------------------------------------------------------
+Highlighted vertices and edges are very thin when using Vulkan.  Why?
+-----------------------------------------------------------------------------------------------------
+
+Versions before 1.4.0 could draw highlighted vertices and edges only 1 pixel wide with Blender's Vulkan backend.  Update to Quad Maker 1.4.0 or later.
+
 ============================================================================================================
 Retopology Resources
 ============================================================================================================
