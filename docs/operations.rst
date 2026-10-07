@@ -225,6 +225,8 @@ While Operation is Active:
 
   Smooth vertices whilst maintaining their projection onto the target surface.
 
+  Vertices you can't see, such as those on the far side of a thin surface or hidden behind another part of the target, are left alone, just as with :ref:`Proportional Tweak<proportional_tweak>`.  This uses the same *Exclude Occluded* option in the :ref:`tool settings<tool_settings>`, and is ignored in X-Ray.
+
 
 .. _smooth_modes:
 
@@ -311,7 +313,7 @@ Tweak Elements
 
   * **Proportional Size** is Blender's own setting, shown as the same circle around the selection.
   * Blender's **falloff types** and **Connected Only** option are used.
-  * **Exclude Occluded** leaves out vertices that face away from the view or are hidden behind the target object.  It is on by default, and is ignored in X-Ray.
+  * **Exclude Occluded** leaves out vertices that face away from the view or are hidden behind the target object.  It is on by default, is ignored in X-Ray, and also applies to :ref:`Smooth Vertices<smooth_verts>`.
   * After a tweak, the **Adjust Last Operation** panel lets you change the move, the proportional size, falloff and other options, as with Blender's Move.
 
   .. tip::
