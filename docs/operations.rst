@@ -163,7 +163,7 @@ While Operation is Active:
 * ``[F]``: Enter size adjust mode, then move the mouse to change the strip size. Left click to confirm, right click to cancel.
 * ``[Up Arrow / Right Bracket]``: Increase strip size by one step
 * ``[Down Arrow / Left Bracket]``: Decrease strip size by one step
-* ``[Spacebar]``: Toggle between Strip and Ring mode
+* ``[Spacebar]``: Toggle between Strip and Place Ring mode (ignored while a Place Ring path is in progress)
 
   .. note::
     When using the :ref:`Tool Shortcut<tool>`, keep holding D to keep the operation active.
@@ -215,7 +215,7 @@ While Operation is Active:
 
 * ``[Shift + Tap F / Tap G / Left & Right Arrows]``: Change brush strength
 
-* ``[Tap Spacebar]``: Change vertex relax mode (All, Selected,sssssss Border, Interior, Automatic)
+* ``[Tap Spacebar]``: Change vertex relax mode (All, Selected, Border, Interior, Automatic)
 
   .. note::
     When using the :ref:`Tool Shortcut<tool>`, keep holding S to keep the operation active.
