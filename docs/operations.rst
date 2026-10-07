@@ -296,6 +296,9 @@ Tweak Elements
 
   **Proportional Tweak**
 
+  .. image:: _static/images/proportional_tweak_comparison.gif
+      :alt: Blender's proportional editing compared with Quad Maker's Proportional Tweak on a bat wing
+
   Turn on proportional editing as usual with ``O`` (or from the :ref:`Proportional Tweak<tool_settings>` tool settings) and drag a vertex: nearby vertices follow with a smooth falloff.
 
   Unlike Blender's built-in proportional editing, the falloff is measured **on screen**, and **vertices you can't see are left alone**.  Grabbing a vertex on a thin surface, such as clothing, an ear or an eyelid, no longer drags the vertices on the other side with it, and nothing hidden behind another part of the model moves either.
